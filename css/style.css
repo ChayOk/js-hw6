@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 20px 50px;
+}
+.task{
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+h2{
+    margin-bottom: 15px;
+}
+p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background: rgb(22, 0, 163);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#task8, #task8_reverse{
+    font-size: 40px;
+    line-height: 25px;
+}
+.triangles{
+    display: flex;
+}
