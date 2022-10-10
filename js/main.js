@@ -273,7 +273,7 @@ function thirteenthTask() {
             case (mail.split('.').length - 1 > 1):
                 alert('Почта не должна содержать более одной точки. Введите почту заново');
                 continue;
-                case (mail.split('_').length - 1 > 1):
+            case (mail.split('_').length - 1 > 1):
                 alert('Почта не должна содержать более одного символа "_". Введите почту заново');
                 continue;                           
             case (mail.split('-').length - 1 > 1):
