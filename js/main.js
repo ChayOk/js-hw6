@@ -110,7 +110,7 @@ let task9 = document.getElementById("task9");
 function ninthTask() {  
     while (true) {
         let email = prompt('Введите Email.', 'info@gmail.com');
-        let re = /^[A-Za-z]+([A-Za-z0-9_\-\.])+\@([A-Za-z]{2,11})+\.([A-Za-z]{2,11})$/;
+        let re = /^[A-Za-z]+([A-Za-z0-9_\-\.])+\@([A-Za-z]{2,11})+\.([A-Za-z]{2,11})$/; //не проверяет на повторение символов ".", "_", "-"
         let valid = re.test(email);
         if (valid) {
             alert('Email ' + email + ' введен верно ');
