@@ -20,7 +20,6 @@ let secondTask = function() {
 task2.innerHTML = 'Дата в новом формате: ' + secondTask();
 
 //3
-// Решение в одно фунции
 let task3 = document.getElementById("task3");
 function thirdTask() {    
     let str = 'Я учу javascript!';
