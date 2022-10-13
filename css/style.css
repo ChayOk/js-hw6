@@ -29,10 +29,3 @@ button{
     margin-bottom: 20px;
     cursor: pointer;
 }
-#task8, #task8_reverse{
-    font-size: 40px;
-    line-height: 25px;
-}
-.triangles{
-    display: flex;
-}
